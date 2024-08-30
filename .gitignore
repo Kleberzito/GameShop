@@ -1,0 +1,25 @@
+# Logs
+*.log
+
+# Diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios temporários
+tmp/
+temp/
+
+# Arquivos de backup
+*.bak
+*.swp
+
+# Diretórios de compilação
+dist/
+build/
+
+# Dependências do Node.js (se aplicável)
+node_modules/
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
