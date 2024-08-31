@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: blueviolet;
+    padding: 16px;
+    color: white
+    
+}
+
+header nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.search {
+    margin-left: auto;
+    margin-top: -20px;
+    align-self: flex-end;
+}

@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Shop - A sua loja de games</title>
+    <title>Game Shop - A sua Loja de Games</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <div class="container">
             <h1>Game Shop</h1>
             <nav>
                 <ul>
@@ -18,7 +19,11 @@
                     <li><a href="#">Sobre</a></li>
                 </ul>
             </nav>
-        </header>
-    </div>    
+            <form class="search" action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>            
+    </header> 
 </body>
 </html>
