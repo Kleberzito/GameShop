@@ -36,17 +36,25 @@ header nav li a{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    vertical-align: middle;
 }
 
 nav {
     margin-top: 10px;
 }
 
+.container-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container a:hover {
+    color: orange;
+}
+
 .search {
     margin-left: auto;
-    margin-top: -20px;
-    align-self: flex-end;
 }
 
 #about h1 {
@@ -79,6 +87,36 @@ nav {
     display: inline;
     height: 100px;
     padding: 0 10px;
+}
+
+.container form {
+    margin: 0;
+    display: flex;
+}
+
+.container form input {
+    padding: 5px; 
+    border-top-left-radius: 8px; 
+    border-bottom-left-radius: 8px;  
+    border: 1px solid #ccc; 
+    border-right: none;
+}
+
+.container form button {
+    margin-left: 0;
+    padding: 5px;
+    border-top-right-radius: 8px; 
+    border-bottom-right-radius: 8px;  
+    border: 1px solid #ccc;
+}
+
+.container form button:hover{
+    padding: 5px;   
+    border-top-right-radius: 8px; 
+    border-bottom-right-radius: 8px; 
+    background-color: #c2c2c2;
+    color: white;   
+    border: 1px solid #ccc;   
 }
 
 
