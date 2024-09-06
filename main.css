@@ -89,7 +89,7 @@ nav {
     padding: 0 10px;
 }
 
-.container form {
+.container-menu form {
     margin: 0;
     display: flex;
 }
@@ -102,7 +102,7 @@ nav {
     border-right: none;
 }
 
-.container form button {
+.container-menu form button {
     margin-left: 0;
     padding: 5px;
     border-top-right-radius: 8px; 
@@ -110,13 +110,59 @@ nav {
     border: 1px solid #ccc;
 }
 
-.container form button:hover{
+.container-menu form button:hover{
     padding: 5px;   
     border-top-right-radius: 8px; 
     border-bottom-right-radius: 8px; 
     background-color: #c2c2c2;
     color: white;   
     border: 1px solid #ccc;   
+}
+
+#contact .container {
+    display: block;
+}
+
+.container-contact {
+    margin-top: 25px;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    border-radius: 8px;
+}
+
+.container-contact h1 {
+    margin-bottom: 16px;
+}
+
+.container-contact form input,
+.container-contact form textarea,
+.container-contact form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container-contact form textarea {
+    resize: none;
+    height: 300px;
+}
+
+.container-contact form button {
+    background-color: blueviolet; 
+    padding: 20px;
+    color: #fff;
+    border: none; 
+    cursor: pointer; 
+}
+
+.container-contact form button:hover {
+    background-color: rgb(180, 99, 255); 
+    border: none; 
 }
 
 
