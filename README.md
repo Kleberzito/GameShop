@@ -28,3 +28,7 @@ A seção de contato inclui um formulário para que os visitantes possam entrar 
 - **Botão Enviar**: Botão para enviar o formulário.
 
 Ao lado do formulário, há uma área com ícones de redes sociais, telefone e email para contato rápido.
+
+### Conclusão
+
+Este projeto de landing page para uma loja de games foi desenvolvido com o objetivo de praticar e demonstrar habilidades em HTML5 e CSS. A página é simples, mas funcional, e pode ser expandida com mais funcionalidades e estilos conforme necessário.
