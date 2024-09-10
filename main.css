@@ -237,6 +237,7 @@ nav {
 }
 
 footer {
+    margin-top: 10px;
     background-color: blueviolet;
     padding: 16px;
     color: white;
